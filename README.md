@@ -1,1 +1,1 @@
-# mlb-player-tracking-yolov9-sam
+# baseball-player-video-main-character-tracking-yolov11n-sam
