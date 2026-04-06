@@ -19,7 +19,7 @@ This project demonstrates an automated visual analytics pipeline designed to dyn
    git clone https://github.com/PL-32003/Dynamic-Athlete-Tracking-YOLO-SAM.git
    cd Dynamic-Athlete-Tracking-YOLO-SAM
    ```
-2.Install the required dependencies:
+2. Install the required dependencies:
    ```bash
    pip install -r requirements.txt
    ```
