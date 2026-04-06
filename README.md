@@ -25,7 +25,7 @@ This project demonstrates an automated visual analytics pipeline designed to dyn
    ```
 3. Download the pre-trained weights (yolo11n.pt and sam2_b.pt) and place them in the root directory.
 
-##Usage
+## Usage
 To track a single main character (Demo Version):
 
 ```Bash
