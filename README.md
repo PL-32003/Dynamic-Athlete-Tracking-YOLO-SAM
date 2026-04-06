@@ -16,5 +16,24 @@ This project demonstrates an automated visual analytics pipeline designed to dyn
 
 1. Clone this repository:
    ```bash
-   git clone [https://github.com/YourUsername/Dynamic-Athlete-Tracking-YOLO-SAM.git](https://github.com/YourUsername/Dynamic-Athlete-Tracking-YOLO-SAM.git)
+   git clone https://github.com/PL-32003/Dynamic-Athlete-Tracking-YOLO-SAM.git
    cd Dynamic-Athlete-Tracking-YOLO-SAM
+   ```
+2.Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Download the pre-trained weights (yolo11n.pt and sam2_b.pt) and place them in the root directory.
+
+##Usage
+To track a single main character (Demo Version):
+
+```Bash
+python detect_top_one.py
+```
+To track a custom number of top targets:
+
+```Bash
+python detect_top_n.py
+```
+(The script will prompt you to input the desired number of targets to track).
